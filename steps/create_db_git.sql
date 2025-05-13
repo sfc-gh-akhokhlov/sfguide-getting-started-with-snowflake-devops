@@ -1,1 +1,1 @@
-create database tt_git ;
+create database tt_git;
