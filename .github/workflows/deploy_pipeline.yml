@@ -54,6 +54,6 @@ jobs:
             RETENTION_TIME=0
           fi
           snow git execute \
-            "@${REPO_NAME}/branches/${BRANCH_NAME}/steps/create_db_*" \
+            "@${REPO_NAME}/branches/${BRANCH_NAME}/testing_git.sql" \
             -D "environment='${BRANCH_NAME}'" \
             -D "retention_time=${RETENTION_TIME}"
